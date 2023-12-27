@@ -1,0 +1,54 @@
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.col >img{
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 20%;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    transform: translateX(-10px);
+}
+
+.col >img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transform: scale(0.6,1.06);
+
+  /* animation-name animation-duration animation-timig-function animation-delay animation-iteration-count animation-direction */
+}
+.hover-animation {
+    transition:all 3s ease-in-out; 
+    transform: translateX(40px);
+}
+
+
+#imageBox{
+    height: 100vh;
+    width: 100%;
+    position: absolute; 
+    top:0;
+    right: 0;  
+    border: 1px solid grey;
+    background-color: rgb(76, 64, 64);
+    display: none;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+span#close-btn{
+    z-index: 2;
+    float: right;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
