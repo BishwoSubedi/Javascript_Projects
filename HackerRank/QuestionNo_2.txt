@@ -1,0 +1,13 @@
+Implement inheritance as described below:-
+Create a function Employee that takes a single parameter and assigns it to a member variable 'title' , 
+Add the following function to the Employee prototype:-
+1)setTitle:- This function take a single parameter and assigns it to the title member variable.
+2)getTitle:- This function returns the meber variable title 
+
+Create a function Engineer that :- 
+1)Inherits from parent Employee
+2)takes two parameters- title(String) and isManager(boolean) and assigns it ti parent's member variable
+ title and self's member variable isManager.
+Add these functions to Engineer's existing  prototype:- 
+SetManager - thia function take a single parameter and assigns it to the member variable isManager.
+2) getIsManager:- This function returns the member variable isManager.
