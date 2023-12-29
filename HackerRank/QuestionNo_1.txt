@@ -4,7 +4,7 @@ Create a function Activity that takes a single parameter amount(Number) and assi
 Add the following functions to the Activity prototype-
 1)setAmount:- This function takes a single parameter, value.
 *If the value is less than or equal to 0, it returns false.
-*Otherwise , i assigns the value to the member variable amount and returns true.
+*Otherwise , it assigns the value to the member variable amount and returns true.
 2)getAmount- This function returns the member variable amount value.
 
 Create a function Payement that :-
